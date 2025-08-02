@@ -4,5 +4,6 @@ token.pkl
 config.json
 secrets.json
 email_secrets.json
+client_secret_388471591533-1du8fqlgtd3c0m5hj5hcosrpkt048h2p.apps.googleusercontent.com.json
 __pycache__/
 *.pyc
