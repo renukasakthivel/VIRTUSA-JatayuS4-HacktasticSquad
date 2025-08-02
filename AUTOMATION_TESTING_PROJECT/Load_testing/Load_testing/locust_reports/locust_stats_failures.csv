@@ -1,0 +1,7 @@
+Method,Name,Error,Occurrences
+GET,/products,"OSError(10013, '[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions.')",1939
+GET,/products/categories,"OSError(10013, '[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions.')",1924
+GET,/products/categories,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",17
+GET,/,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",25
+GET,/,"OSError(10013, '[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions.')",1909
+GET,/products,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",11

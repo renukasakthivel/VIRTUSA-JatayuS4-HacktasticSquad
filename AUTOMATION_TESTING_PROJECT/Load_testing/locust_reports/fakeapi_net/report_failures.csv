@@ -1,0 +1,6 @@
+Method,Name,Error,Occurrences
+DELETE,/api/v1/users/1,HTTPError('405 Client Error: Method Not Allowed for url: /api/v1/users/1'),18
+GET,/api/v1/users/1,HTTPError('404 Client Error: Not Found for url: /api/v1/users/1'),3
+GET,/api/v1/users,HTTPError('404 Client Error: Not Found for url: /api/v1/users'),3
+PUT,/api/v1/users/1,HTTPError('405 Client Error: Method Not Allowed for url: /api/v1/users/1'),10
+POST,/api/v1/users,HTTPError('405 Client Error: Method Not Allowed for url: /api/v1/users'),14

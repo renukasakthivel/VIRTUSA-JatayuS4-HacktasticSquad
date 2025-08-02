@@ -1,0 +1,8 @@
+# Ignore secrets
+client_secret.json
+token.pkl
+config.json
+secrets.json
+email_secrets.json
+__pycache__/
+*.pyc

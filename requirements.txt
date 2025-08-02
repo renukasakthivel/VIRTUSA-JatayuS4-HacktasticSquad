@@ -1,0 +1,8 @@
+streamlit
+selenium
+pytest
+locust
+groq
+webdriver-manager
+schedule
+requests
