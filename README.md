@@ -7,10 +7,6 @@ It leverages **Groq’s LLaMA 3.1 API** for AI-driven script generation, **Selen
 
 ---
 
-
-
-
-
 **✅ Regression Testing**
 
 - AI-generated PyTest test cases from web forms
@@ -42,23 +38,20 @@ It leverages **Groq’s LLaMA 3.1 API** for AI-driven script generation, **Selen
 🚀 How to Run
 
 🔹 Regression Testing
-```bash
 cd Regression_testing
 streamlit run app1.py
+
 🔹 Load Testing
-bash
-Copy
-Edit
 cd Load_Testing
 streamlit run main.py
+
 📈 Reporting
 Allure Reports → Pass/Fail status, screenshots, execution time, metadata
-
 HTML Reports → Performance metrics for load tests
 
 =======
-📂 Folder Structure (Visual Tree)
-```plaintext
+**📂 Folder Structure (Visual Tree)**
+
 Automation_Testing/
 ├── Regression_testing/
 │   ├── Output/                  # Pytest results & reports
@@ -105,63 +98,48 @@ Automation_Testing/
 │   ├── secrets.json
 │   ├── locust_output.log
 
-🚀 How to Run
+**🚀 How to Run**
 🔹 Regression Testing
 cd Regression_testing
 streamlit run app1.py
 
-🔹 Load Testing
+**🔹 Load Testing**
 cd Load_Testing
 streamlit run main.py
 
-📈 Reporting
+**📈 Reporting**
 Allure Reports → Pass/Fail status, screenshots, execution time, metadata
 HTML Reports → Performance metrics for load tests
 >>>>>>> b91a448197c63b9ad089e5774a1e5497de16e0f2
 Reports auto-uploaded to Google Drive & emailed to stakeholders
 
-🔮 Future Enhancements
+**🔮 Future Enhancements**
 Slack alert integration
-<<<<<<< HEAD
-
-Jira ticket auto-generation
-
-AI-powered self-healing test scripts
-
-=======
 Jira ticket auto-generation
 AI-powered self-healing test scripts
->>>>>>> b91a448197c63b9ad089e5774a1e5497de16e0f2
+Jira ticket auto-generation
+AI-powered self-healing test scripts
 Grafana/Prometheus dashboards for monitoring
 
-👨‍💻 Team – Hacktastic Squad
+**👨‍💻 Team – Hacktastic Squad**
 Renuka S – Project Lead & GenAI Integration
-<<<<<<< HEAD
-
 Priyadharshini J – Load Testing & Performance
-
 Rajavel P – Regression Automation
-
 Sangavi K – Frontend & Dashboard
-
 Lathika P – Reporting & Documentation
 =======
-Priyadharshini J – Load Testing & Performance
-Rajavel P – Regression Automation
-Sangavi K – Frontend & Dashboard
-Lathika P – Reporting & Documentation
 
-📜 Detailed Project Description
+**📜 Detailed Project Description**
 Regression Testing
 The Selenium Test Automation & Reporting System is an end-to-end automation framework designed to simplify and accelerate the process of generating, executing, and reporting Selenium + Pytest-based test cases.
 It integrates browser-based form exploration, AI-powered test case generation, dynamic test execution, and automated Allure reporting — all accessible through a Streamlit dashboard, enabling QA teams to automate regression workflows with minimal manual effort.
 
-Key components include:
+**Key components include:**
 Form Extractor: Navigates user-defined flows and collects web elements using Selenium WebDriver.
 AI Test Generator: Leverages Groq’s LLaMA 3.1 model to create Pytest test functions based on extracted content and scenarios.
 Executor & Screenshot Handler: Captures screenshots for failed test cases, automatically embedding them in Allure reports.
 
-Automation Features:
+**Automation Features:**
 Allure report generator produces rich, interactive HTML reports.
 Daily automated test execution and result sharing via Email and Google Drive API.
 Jenkins integration with Allure Report, HTML Publisher, and Email Extension plugins.
@@ -170,11 +148,11 @@ Supports parallel execution with pytest-xdist.
 Multi-browser support: Chrome, Edge, Firefox.
 Built using Python, Selenium, Pytest, Allure, Streamlit, Groq LLM, and Google Drive API.
 
-Load Testing
+**Load Testing**
 The Load Testing Automation System enables intelligent and streamlined performance testing of web applications.
 Instead of relying on manually written test scripts, it uses Groq’s LLaMA3 API to automatically generate Locust test scripts tailored to the target website.
 
-Key capabilities:
+**Key capabilities:**
 Supports multiple hosts: DummyJSON, FakeStoreAPI, FakeApiNet.
 Automatically detects CRUD operations (Create, Read, Update, Delete).
 Parallel execution across multiple APIs for performance comparison.
@@ -183,7 +161,7 @@ Real-time logs, countdown timers, and failure capture.
 Automatic HTML report generation and email delivery.
 Supports daily scheduling and automated reporting.
 
-Overall Definition
+**Overall Definition**
 Our platform delivers a robust AI-driven Regression and Load Testing Automation framework designed for:
 Minimal manual effort
 Maximum automation
@@ -192,11 +170,11 @@ Unified regression & load testing control via Streamlit UI
 CI/CD automation with Jenkins
 Smart reporting and sharing via Google Drive and Email
 
-Workflow Summary:
+**Workflow Summary:**
 User configures tests via Streamlit UI.
 AI generates Selenium/PyTest or Locust scripts.
 Tests execute (parallel supported).
 Reports generated → uploaded → emailed.
 Jenkins handles scheduling, automation, and publishing.
 
->>>>>>> b91a448197c63b9ad089e5774a1e5497de16e0f2
+
