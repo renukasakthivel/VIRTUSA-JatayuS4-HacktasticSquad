@@ -52,7 +52,7 @@ HTML Reports → Performance metrics for load tests
 
 =======
 **📂 Folder Structure (Visual Tree)**
-
+**plain text**
 Automation_Testing/
 ├── Regression_testing/
 │   ├── Output/                  # Pytest results & reports
