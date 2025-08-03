@@ -1,7 +1,8 @@
 
 **🚀 AI-Driven Regression & Load Testing Automation Platform using GenAI (Groq LLaMA 3.1)**
 
-** 📌 Introduction**
+ **📌 Introduction**
+ 
 This project delivers a **robust AI-powered testing automation platform** that combines **Regression Testing** and **Load Testing** into a unified solution.  
 It leverages **Groq’s LLaMA 3.1 API** for AI-driven script generation, **Selenium + PyTest** for regression testing, and **Locust** for load testing — all controlled via a **Streamlit dashboard** with **Jenkins CI/CD** integration.
 
