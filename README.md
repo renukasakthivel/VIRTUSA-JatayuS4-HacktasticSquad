@@ -8,10 +8,15 @@ It leverages **Groq’s LLaMA 3.1 API** for AI-driven script generation, **Selen
 ---
 **👨‍💻 Team – Hacktastic Squad**
 Renuka S – Project Lead & GenAI Integration
+
 Priyadharshini J – Load Testing & Performance
+
 Rajavel P – Regression Automation
+
 Sangavi K – Frontend & Dashboard
+
 Lathika P – Reporting & Documentation
+
 ---
 **✅ Regression Testing**
 
