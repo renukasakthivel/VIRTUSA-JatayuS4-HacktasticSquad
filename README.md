@@ -1,26 +1,21 @@
-<<<<<<< HEAD
-# 🚀 AI-Driven Regression & Load Testing Automation Platform using GenAI (Groq LLaMA 3.1)
 
-## 📌 Introduction
+🚀 AI-Driven Regression & Load Testing Automation Platform using GenAI (Groq LLaMA 3.1)
+
+ 📌 Introduction
 This project delivers a **robust AI-powered testing automation platform** that combines **Regression Testing** and **Load Testing** into a unified solution.  
 It leverages **Groq’s LLaMA 3.1 API** for AI-driven script generation, **Selenium + PyTest** for regression testing, and **Locust** for load testing — all controlled via a **Streamlit dashboard** with **Jenkins CI/CD** integration.
 
 ---
 
-## 🛠 Features
+🛠 Features
 
 ### ✅ Regression Testing
 =======
- 🚀 AI-Driven Regression & Load Testing Automation Platform using GenAI (Groq LLaMA 3.1)
-
-📌 Introduction
-This project delivers a **robust AI-powered testing automation platform** that combines **Regression Testing** and **Load Testing** into a unified solution.  
-It leverages **Groq’s LLaMA 3.1 API** for AI-driven script generation, **Selenium + PyTest** for regression testing, and **Locust** for load testing — all controlled via a **Streamlit dashboard** with **Jenkins CI/CD** integration.
 
  🛠 Features
 
 ✅ Regression Testing
->>>>>>> b91a448197c63b9ad089e5774a1e5497de16e0f2
+
 - AI-generated PyTest test cases from web forms
 - Page Object Model (POM) for scalability
 - Multi-browser support (Chrome, Firefox, Edge)
@@ -28,31 +23,31 @@ It leverages **Groq’s LLaMA 3.1 API** for AI-driven script generation, **Selen
 - Rich Allure HTML reports with visual debugging
 - Google Drive & Email integration for report sharing
 
-<<<<<<< HEAD
-### ✅ Load Testing
+
+ ✅ Load Testing
 =======
 ✅ Load Testing
->>>>>>> b91a448197c63b9ad089e5774a1e5497de16e0f2
+
 - AI-generated Locust scripts for APIs (DummyJSON, FakeStoreAPI, FakeApiNet)
 - CRUD operation detection for APIs
 - Parallel execution across multiple hosts
 - Real-time logs & failure detection
 - HTML performance reports with email delivery
 
-<<<<<<< HEAD
-### ✅ CI/CD & Automation
+
+✅ CI/CD & Automation
 =======
 ✅ CI/CD & Automation
->>>>>>> b91a448197c63b9ad089e5774a1e5497de16e0f2
+
 - Jenkins scheduled builds and test execution
 - Allure & HTML Publisher plugins for hosted reports
 - Email Extension plugin for automated notifications
 - Secure credential handling using `.gitignore`
 
-<<<<<<< HEAD
----
 
-## 📂 Folder Structure
+
+
+ 📂 Folder Structure
 Automation_Testing/
 ├── Regression_testing/
 │ ├── Output/
@@ -83,9 +78,9 @@ Edit
 
 ---
 
-## 🚀 How to Run
+🚀 How to Run
 
-### 🔹 Regression Testing
+🔹 Regression Testing
 ```bash
 cd Regression_testing
 streamlit run app1.py
