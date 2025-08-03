@@ -39,39 +39,6 @@ It leverages **Groq’s LLaMA 3.1 API** for AI-driven script generation, **Selen
 - Secure credential handling using `.gitignore`
 
 
-
-
- 📂 Folder Structure
-Automation_Testing/
-├── Regression_testing/
-│ ├── Output/
-│ ├── Pages/
-│ ├── pytest_report/
-│ ├── Screenshots/
-│ ├── test1/ test2/ test3/ test4/
-│ ├── utils/
-│ ├── app1.py
-│ ├── main.py
-│ ├── config.json
-├── Load_Testing/
-│ ├── locust_reports/
-│ ├── locust_scripts/
-│ ├── logs/
-│ ├── ai_generator.py
-│ ├── generate_locust_code.py
-│ ├── locust_scheduler.py
-│ ├── locustfile.py
-│ ├── main.py
-│ ├── run_test.py
-│ ├── config.json
-│ ├── secrets.json
-
-yaml
-Copy
-Edit
-
----
-
 🚀 How to Run
 
 🔹 Regression Testing
